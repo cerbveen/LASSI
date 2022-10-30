@@ -1,0 +1,3764 @@
+Key file param_DB.key was successfully parsed.
+
+<======       System Settings       ======>
+Number of Components = 2
+Number of Beads      = 10000
+Number of Chains     = 500
+Box Size             = 200, 200, 200
+Monomer density      = 1.2e-03
+
+<======       Energy Matrices       ======>
+------------------------
+|E_ovlp	0	1      |
+|0	0.20	-0.20   |
+|1	-0.20	0.20   |
+------------------------
+------------------------
+|E_cont	0	1      |
+|0	0.00	0.00   |
+|1	0.00	0.00   |
+------------------------
+------------------------
+|R_cont	0	1      |
+|0	0.00	0.00   |
+|1	0.00	0.00   |
+------------------------
+------------------------
+|SC_SC	0	1      |
+|0	0.00	-2.00   |
+|1	-2.00	0.00   |
+------------------------
+
+<======       Linker Info       ======>
+Linker length             = 1.00
+Linker spring constant    = 0.00
+Linker equilibrium length = 1.00
+
+<======       MC Setup       ======>
+MC Temperatures: (First, Last) = (1.00, 2.00)
+Temperature Mode               = 3
+Indent Mode                    = -1
+Rotational Bias Mode           = 0
+Number of MC Cycles            = 5.000000e+00
+Number of MC Steps/Cycle       = 2.000000e+08
+Thermalizing Temperature       = 1000.00
+Number of Thermalizing Steps   = 1.000000e+07
+RNG Seed                       = 1666989556
+MC Move Frequencies:
+--------------------------
+|Face Change       100
+|Local             100
+|Co-local          100
+|Shake             50
+|Slithering Snake  50
+|Translation       21
+|Smaller Cluster   11
+|Larger Cluster    1
+|Pivot             50
+|Rotate Branched   0
+|Double Pivot      21
+--------------------------
+
+<======       Initializing       ======>
+Successfully allocated memory! Arrays initialized.
+All setup has been completed!
+Check structure sanity: OK
+Initialization done. 0.02 sec elapsed.
+<======       Beginning MC Simulation       ======>
+******************************************
+
+_____________________
+Thermalizing system.
+---------------------
+
+Writing the topology file!
+Structure is still a-okay!
+Step       0.00e+00
+Run Cycle: -1
+MC Temp  = 1.000e+03;
+Total E  = 1.272e+03;	Iso E = 1.272e+03;	Aniso E = 0.000e+00;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	
+
+Structure is still a-okay!
+Step       2.50e+06
+Run Cycle: -1
+MC Temp  = 1.000e+03;
+Total E  = 1.196e+03;	Iso E = 1.196e+03;	Aniso E = 0.000e+00;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+15.42	15.36	15.33	0.29	87.58	98.38	98.30	98.24	47.04	0.00	0.01	
+
+Structure is still a-okay!
+Step       5.00e+06
+Run Cycle: -1
+MC Temp  = 1.000e+03;
+Total E  = 1.208e+03;	Iso E = 1.208e+03;	Aniso E = 0.000e+00;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+15.38	15.37	15.42	0.30	87.63	98.31	98.43	98.19	46.90	0.00	0.02	
+
+Structure is still a-okay!
+Step       7.50e+06
+Run Cycle: -1
+MC Temp  = 1.000e+03;
+Total E  = 1.158e+03;	Iso E = 1.158e+03;	Aniso E = 0.000e+00;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+15.50	15.32	15.39	0.28	87.47	98.31	98.37	98.25	46.98	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.00e+07
+Run Cycle: -1
+MC Temp  = 1.000e+03;
+Total E  = 1.175e+03;	Iso E = 1.175e+03;	Aniso E = 0.000e+00;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+15.39	15.41	15.36	0.30	87.62	98.30	98.35	98.42	46.90	0.00	0.01	
+
+____________________________
+System has been thermalized!
+----------------------------
+
+Structure is still a-okay!
+Step       2.50e+06
+Run Cycle: 0
+MC Temp  = 1.368e+00;
+Total E  = -6.411e+03;	Iso E = 8.527e+01;	Aniso E = -6.496e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+82.85	8.33	0.33	0.10	51.35	83.29	98.25	97.10	18.39	0.00	0.02	
+
+Structure is still a-okay!
+Step       5.00e+06
+Run Cycle: 0
+MC Temp  = 1.135e+00;
+Total E  = -6.664e+03;	Iso E = 3.367e+01;	Aniso E = -6.698e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+78.89	7.45	0.35	0.09	51.82	87.22	98.12	96.46	16.80	0.00	0.02	
+
+Structure is still a-okay!
+Step       7.50e+06
+Run Cycle: 0
+MC Temp  = 1.050e+00;
+Total E  = -6.694e+03;	Iso E = -1.992e+01;	Aniso E = -6.674e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+77.23	7.16	0.33	0.08	51.24	87.61	98.19	95.65	16.34	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.00e+07
+Run Cycle: 0
+MC Temp  = 1.018e+00;
+Total E  = -6.714e+03;	Iso E = 2.358e+01;	Aniso E = -6.738e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.70	7.06	0.36	0.09	50.88	87.92	98.27	95.85	16.27	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.25e+07
+Run Cycle: 0
+MC Temp  = 1.007e+00;
+Total E  = -6.664e+03;	Iso E = 1.605e+01;	Aniso E = -6.680e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.51	7.04	0.35	0.09	50.91	87.88	98.15	95.25	16.25	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.50e+07
+Run Cycle: 0
+MC Temp  = 1.002e+00;
+Total E  = -6.743e+03;	Iso E = -1.549e+01;	Aniso E = -6.728e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.34	7.03	0.35	0.10	51.15	87.76	98.04	97.41	16.27	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.75e+07
+Run Cycle: 0
+MC Temp  = 1.001e+00;
+Total E  = -6.694e+03;	Iso E = -1.994e+01;	Aniso E = -6.674e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.29	6.91	0.34	0.09	51.10	87.86	98.08	96.69	16.08	0.00	0.01	
+
+Structure is still a-okay!
+Step       2.00e+07
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.784e+03;	Iso E = -1.647e+01;	Aniso E = -6.768e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.46	6.94	0.32	0.09	51.23	88.33	98.06	94.69	16.15	0.00	0.01	
+
+Structure is still a-okay!
+Step       2.25e+07
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.809e+03;	Iso E = -2.314e+01;	Aniso E = -6.786e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.45	6.97	0.33	0.09	51.11	87.82	98.00	94.38	16.27	0.00	0.01	
+
+Structure is still a-okay!
+Step       2.50e+07
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.672e+03;	Iso E = 1.419e+01;	Aniso E = -6.686e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.42	7.03	0.34	0.09	50.90	87.57	98.08	94.88	16.20	0.00	0.01	
+
+Structure is still a-okay!
+Step       2.75e+07
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.714e+03;	Iso E = -1.028e+01;	Aniso E = -6.704e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.33	7.00	0.32	0.09	51.05	87.73	98.11	95.27	16.16	0.00	0.02	
+
+Structure is still a-okay!
+Step       3.00e+07
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.759e+03;	Iso E = -2.878e+01;	Aniso E = -6.730e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.39	6.97	0.34	0.07	50.97	87.70	98.08	96.80	16.12	0.00	0.02	
+
+Structure is still a-okay!
+Step       3.25e+07
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.768e+03;	Iso E = -1.363e+01;	Aniso E = -6.754e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.30	6.93	0.34	0.09	50.63	87.88	98.17	95.97	16.03	0.00	0.01	
+
+Structure is still a-okay!
+Step       3.50e+07
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.673e+03;	Iso E = -5.683e-01;	Aniso E = -6.672e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.36	6.94	0.35	0.09	50.85	87.88	98.08	95.57	16.15	0.00	0.01	
+
+Structure is still a-okay!
+Step       3.75e+07
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.743e+03;	Iso E = -3.148e+00;	Aniso E = -6.740e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.44	7.03	0.31	0.09	50.89	87.89	98.23	94.89	16.23	0.00	0.02	
+
+Structure is still a-okay!
+Step       4.00e+07
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.699e+03;	Iso E = 3.545e+01;	Aniso E = -6.734e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.44	6.99	0.32	0.08	51.38	87.86	98.15	95.48	16.24	0.00	0.01	
+
+Structure is still a-okay!
+Step       4.25e+07
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.744e+03;	Iso E = -1.010e-01;	Aniso E = -6.744e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.36	6.94	0.33	0.08	51.31	88.18	98.19	96.47	16.31	0.00	0.01	
+
+Structure is still a-okay!
+Step       4.50e+07
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.720e+03;	Iso E = -2.194e+00;	Aniso E = -6.718e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.39	6.91	0.34	0.08	51.18	87.91	98.07	95.91	16.12	0.00	0.01	
+
+Structure is still a-okay!
+Step       4.75e+07
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.714e+03;	Iso E = -1.789e+01;	Aniso E = -6.696e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.28	6.89	0.34	0.08	50.83	87.83	98.02	95.89	16.06	0.00	0.01	
+
+Structure is still a-okay!
+Step       5.00e+07
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.754e+03;	Iso E = -3.160e+01;	Aniso E = -6.722e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.37	6.97	0.34	0.08	51.02	88.03	98.11	97.70	16.23	0.00	0.02	
+
+Structure is still a-okay!
+Step       5.25e+07
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.685e+03;	Iso E = 1.459e+01;	Aniso E = -6.700e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.34	6.98	0.34	0.10	50.98	87.73	98.11	96.24	16.17	0.00	0.02	
+
+Structure is still a-okay!
+Step       5.50e+07
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.779e+03;	Iso E = -1.268e+01;	Aniso E = -6.766e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.33	6.99	0.33	0.08	51.18	87.67	98.10	95.91	16.14	0.00	0.01	
+
+Structure is still a-okay!
+Step       5.75e+07
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.832e+03;	Iso E = -3.788e+01;	Aniso E = -6.794e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.31	7.00	0.33	0.08	51.07	87.91	98.09	96.33	16.14	0.00	0.02	
+
+Structure is still a-okay!
+Step       6.00e+07
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.671e+03;	Iso E = -1.061e+01;	Aniso E = -6.660e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.42	6.93	0.34	0.09	50.71	87.89	98.12	96.48	16.15	0.00	0.01	
+
+Structure is still a-okay!
+Step       6.25e+07
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.749e+03;	Iso E = -9.295e+00;	Aniso E = -6.740e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.43	6.99	0.34	0.08	50.97	88.01	98.14	96.22	16.25	0.00	0.02	
+
+Structure is still a-okay!
+Step       6.50e+07
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.729e+03;	Iso E = -3.503e+01;	Aniso E = -6.694e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.42	7.00	0.34	0.09	50.97	87.80	98.17	97.03	16.07	0.00	0.02	
+
+Structure is still a-okay!
+Step       6.75e+07
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.855e+03;	Iso E = -6.744e+01;	Aniso E = -6.788e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.39	6.94	0.33	0.08	50.87	87.99	98.09	96.63	16.02	0.00	0.02	
+
+Structure is still a-okay!
+Step       7.00e+07
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.819e+03;	Iso E = -3.125e+01;	Aniso E = -6.788e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.34	6.90	0.36	0.09	50.86	87.81	98.09	96.76	16.07	0.00	0.02	
+
+Structure is still a-okay!
+Step       7.25e+07
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.798e+03;	Iso E = -3.044e+01;	Aniso E = -6.768e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.43	6.97	0.34	0.09	51.08	88.00	97.96	94.59	16.20	0.00	0.01	
+
+Structure is still a-okay!
+Step       7.50e+07
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.612e+03;	Iso E = 2.203e+01;	Aniso E = -6.634e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.52	6.94	0.34	0.09	50.75	87.31	98.11	94.97	16.07	0.00	0.02	
+
+Structure is still a-okay!
+Step       7.75e+07
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.607e+03;	Iso E = -2.693e+00;	Aniso E = -6.604e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.32	7.00	0.35	0.09	50.88	87.97	98.18	96.73	16.11	0.00	0.02	
+
+Structure is still a-okay!
+Step       8.00e+07
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.716e+03;	Iso E = -3.715e+00;	Aniso E = -6.712e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.46	6.97	0.34	0.08	50.88	87.39	98.02	97.11	16.18	0.00	0.03	
+
+Structure is still a-okay!
+Step       8.25e+07
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.672e+03;	Iso E = 2.228e+00;	Aniso E = -6.674e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.22	6.99	0.34	0.09	51.11	87.45	98.13	96.85	16.08	0.00	0.02	
+
+Structure is still a-okay!
+Step       8.50e+07
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.863e+03;	Iso E = -5.133e+01;	Aniso E = -6.812e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.36	6.97	0.33	0.08	51.10	87.09	98.09	93.67	16.17	0.00	0.02	
+
+Structure is still a-okay!
+Step       8.75e+07
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.814e+03;	Iso E = -1.159e+01;	Aniso E = -6.802e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.39	6.99	0.35	0.09	50.90	87.76	98.18	96.62	16.30	0.00	0.01	
+
+Structure is still a-okay!
+Step       9.00e+07
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.724e+03;	Iso E = 7.560e+00;	Aniso E = -6.732e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.40	7.00	0.34	0.08	51.07	87.94	97.99	95.91	16.15	0.00	0.02	
+
+Structure is still a-okay!
+Step       9.25e+07
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.794e+03;	Iso E = -2.038e+01;	Aniso E = -6.774e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.45	6.96	0.33	0.08	51.36	87.73	98.25	94.30	16.06	0.00	0.02	
+
+Structure is still a-okay!
+Step       9.50e+07
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.728e+03;	Iso E = 3.500e+00;	Aniso E = -6.732e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.37	6.90	0.35	0.09	51.13	88.12	98.11	96.68	16.20	0.00	0.02	
+
+Structure is still a-okay!
+Step       9.75e+07
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.729e+03;	Iso E = 1.898e+01;	Aniso E = -6.748e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.45	6.98	0.33	0.08	50.93	87.76	98.20	97.22	16.23	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.00e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.733e+03;	Iso E = 2.262e+01;	Aniso E = -6.756e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.38	6.93	0.34	0.08	50.76	87.59	98.10	97.21	16.30	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.02e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.712e+03;	Iso E = -1.228e+01;	Aniso E = -6.700e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+76.51	6.99	0.33	0.08	51.10	87.79	98.07	97.78	16.29	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.05e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.747e+03;	Iso E = -2.111e+01;	Aniso E = -6.726e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.45	6.97	0.33	0.09	51.12	88.05	98.02	94.93	16.26	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.08e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.840e+03;	Iso E = -2.384e+01;	Aniso E = -6.816e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.39	7.01	0.34	0.09	50.75	87.70	98.07	93.05	16.10	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.10e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.795e+03;	Iso E = -2.123e+01;	Aniso E = -6.774e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.38	6.96	0.33	0.09	51.04	87.82	98.13	94.89	16.18	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.12e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.767e+03;	Iso E = -4.063e+01;	Aniso E = -6.726e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.32	6.91	0.32	0.09	51.00	87.87	98.16	93.84	15.99	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.15e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.651e+03;	Iso E = 5.517e-01;	Aniso E = -6.652e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.42	6.90	0.33	0.08	51.09	88.03	98.05	95.00	16.21	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.18e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.724e+03;	Iso E = 8.100e+00;	Aniso E = -6.732e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.38	6.96	0.34	0.08	51.37	87.78	98.16	96.27	16.15	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.20e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.669e+03;	Iso E = 1.546e+01;	Aniso E = -6.684e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.41	6.93	0.35	0.09	50.77	87.61	98.11	97.07	16.23	0.00	0.03	
+
+Structure is still a-okay!
+Step       1.22e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.678e+03;	Iso E = 1.247e+01;	Aniso E = -6.690e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.38	6.99	0.34	0.08	51.08	87.80	98.11	95.50	16.24	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.25e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.768e+03;	Iso E = -1.777e+01;	Aniso E = -6.750e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.52	7.04	0.32	0.09	50.97	87.64	98.15	96.64	16.29	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.28e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.819e+03;	Iso E = -2.066e+01;	Aniso E = -6.798e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.44	6.97	0.34	0.08	51.13	87.80	98.14	96.56	16.15	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.30e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.714e+03;	Iso E = -2.217e-02;	Aniso E = -6.714e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.40	7.01	0.34	0.09	51.01	88.01	98.02	97.49	16.21	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.32e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.752e+03;	Iso E = -1.585e+01;	Aniso E = -6.736e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.49	6.94	0.34	0.08	50.84	87.50	98.25	95.32	16.09	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.35e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.800e+03;	Iso E = -5.048e+01;	Aniso E = -6.750e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.44	7.03	0.34	0.08	51.00	88.01	98.13	96.96	16.16	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.38e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.744e+03;	Iso E = -2.270e+00;	Aniso E = -6.742e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.34	6.96	0.34	0.09	50.92	87.69	98.13	96.88	16.05	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.40e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.729e+03;	Iso E = 4.767e+00;	Aniso E = -6.734e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.32	6.96	0.35	0.08	51.00	87.59	98.07	96.43	16.07	0.00	0.03	
+
+Structure is still a-okay!
+Step       1.42e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.757e+03;	Iso E = -9.238e+00;	Aniso E = -6.748e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.37	6.98	0.33	0.09	51.20	87.62	98.20	97.57	16.19	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.45e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.790e+03;	Iso E = -5.761e+01;	Aniso E = -6.732e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.36	6.87	0.34	0.08	50.88	88.11	98.09	97.49	16.22	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.48e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.815e+03;	Iso E = -3.469e+01;	Aniso E = -6.780e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.38	7.00	0.35	0.08	50.87	88.01	98.07	97.14	16.24	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.50e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.732e+03;	Iso E = -2.440e+01;	Aniso E = -6.708e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.45	7.01	0.34	0.08	51.01	87.64	98.16	94.79	16.05	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.52e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.693e+03;	Iso E = -7.145e+00;	Aniso E = -6.686e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.49	7.00	0.33	0.09	51.29	87.98	98.09	95.57	16.10	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.55e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.823e+03;	Iso E = -3.147e+01;	Aniso E = -6.792e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.42	6.98	0.33	0.07	50.78	87.74	98.15	96.95	16.08	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.58e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.725e+03;	Iso E = -2.908e+00;	Aniso E = -6.722e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.35	6.99	0.34	0.08	51.20	87.94	98.24	97.38	16.22	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.60e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.841e+03;	Iso E = -1.717e+01;	Aniso E = -6.824e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.36	6.97	0.35	0.08	50.96	87.85	98.18	96.71	16.19	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.62e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.846e+03;	Iso E = -2.550e+01;	Aniso E = -6.820e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.33	7.04	0.34	0.10	51.01	88.11	98.01	97.41	16.15	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.65e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.751e+03;	Iso E = -2.338e+01;	Aniso E = -6.728e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.43	6.99	0.34	0.08	50.83	87.80	98.11	97.90	16.00	0.00	0.03	
+
+Structure is still a-okay!
+Step       1.68e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.791e+03;	Iso E = 4.539e+00;	Aniso E = -6.796e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.40	6.99	0.34	0.08	50.88	87.68	98.09	96.28	16.06	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.70e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.706e+03;	Iso E = 1.846e+01;	Aniso E = -6.724e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.47	6.99	0.33	0.09	51.06	87.83	98.14	95.86	16.22	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.72e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.781e+03;	Iso E = -2.877e+01;	Aniso E = -6.752e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.28	6.97	0.33	0.09	51.02	88.08	98.13	97.20	16.17	0.00	0.03	
+
+Structure is still a-okay!
+Step       1.75e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.746e+03;	Iso E = -2.167e+01;	Aniso E = -6.724e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.33	7.00	0.34	0.09	51.02	87.92	98.20	97.23	16.25	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.78e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.778e+03;	Iso E = -6.179e+00;	Aniso E = -6.772e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.33	6.95	0.34	0.08	51.22	87.78	98.21	97.16	16.17	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.80e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.667e+03;	Iso E = 1.268e+01;	Aniso E = -6.680e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.42	6.99	0.34	0.09	51.10	87.93	98.10	95.63	16.24	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.82e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.680e+03;	Iso E = -1.180e+01;	Aniso E = -6.668e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.46	6.91	0.33	0.07	50.90	87.88	98.14	96.47	16.20	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.85e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.864e+03;	Iso E = -4.633e+01;	Aniso E = -6.818e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.37	6.93	0.33	0.08	51.06	88.08	98.23	96.97	16.04	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.88e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.754e+03;	Iso E = -1.514e-01;	Aniso E = -6.754e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.22	6.92	0.35	0.09	50.98	88.11	98.20	96.93	16.16	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.90e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.766e+03;	Iso E = -9.618e+00;	Aniso E = -6.756e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.48	6.91	0.33	0.09	51.15	87.78	98.10	95.39	16.12	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.92e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.849e+03;	Iso E = -1.054e+01;	Aniso E = -6.838e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.35	6.91	0.33	0.09	50.90	87.89	98.17	97.19	15.94	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.95e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.741e+03;	Iso E = 5.158e+00;	Aniso E = -6.746e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.45	7.00	0.34	0.08	51.14	87.98	98.06	95.79	16.18	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.98e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.705e+03;	Iso E = 1.338e+00;	Aniso E = -6.706e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.61	7.00	0.33	0.08	51.20	87.76	98.04	95.42	16.37	0.00	0.02	
+
+Structure is still a-okay!
+Step       2.00e+08
+Run Cycle: 0
+MC Temp  = 1.000e+00;
+Total E  = -6.755e+03;	Iso E = -2.895e+01;	Aniso E = -6.726e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+76.32	6.98	0.35	0.09	50.83	87.59	98.08	97.04	16.22	0.00	0.01	
+
+Structure is still a-okay!
+Step       0.00e+00
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.755e+03;	Iso E = -2.895e+01;	Aniso E = -6.726e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	
+
+Structure is still a-okay!
+Step       2.50e+06
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.335e+03;	Iso E = 7.512e+01;	Aniso E = -6.410e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.23	7.58	0.31	0.08	54.04	89.63	98.26	97.21	16.90	0.00	0.02	
+
+Structure is still a-okay!
+Step       5.00e+06
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.300e+03;	Iso E = 6.834e+01;	Aniso E = -6.368e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.34	7.58	0.34	0.09	54.12	89.30	98.12	96.43	17.09	0.00	0.02	
+
+Structure is still a-okay!
+Step       7.50e+06
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.379e+03;	Iso E = 7.303e+01;	Aniso E = -6.452e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.41	7.64	0.32	0.09	54.13	89.53	98.32	96.24	17.09	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.00e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.519e+03;	Iso E = 6.132e+01;	Aniso E = -6.580e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.36	7.53	0.33	0.09	54.21	89.66	98.18	97.86	17.25	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.25e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.413e+03;	Iso E = 5.913e+01;	Aniso E = -6.472e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.42	7.59	0.32	0.10	54.05	89.24	98.37	96.57	17.01	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.50e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.390e+03;	Iso E = 6.806e+01;	Aniso E = -6.458e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.33	7.54	0.33	0.10	54.28	89.39	98.19	96.81	17.26	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.75e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.365e+03;	Iso E = 9.252e+01;	Aniso E = -6.458e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.35	7.63	0.33	0.10	54.31	89.43	98.20	95.09	17.06	0.00	0.02	
+
+Structure is still a-okay!
+Step       2.00e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.344e+03;	Iso E = 1.056e+02;	Aniso E = -6.450e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.30	7.54	0.34	0.12	54.16	89.88	98.24	96.02	17.06	0.00	0.01	
+
+Structure is still a-okay!
+Step       2.25e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.273e+03;	Iso E = 1.050e+02;	Aniso E = -6.378e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.22	7.58	0.34	0.09	54.43	89.78	98.22	97.30	17.15	0.00	0.01	
+
+Structure is still a-okay!
+Step       2.50e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.349e+03;	Iso E = 7.857e+01;	Aniso E = -6.428e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.42	7.64	0.34	0.10	54.43	89.24	98.22	96.52	17.08	0.00	0.01	
+
+Structure is still a-okay!
+Step       2.75e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.418e+03;	Iso E = 5.194e+01;	Aniso E = -6.470e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.33	7.57	0.34	0.10	54.12	89.46	98.12	97.39	17.09	0.00	0.02	
+
+Structure is still a-okay!
+Step       3.00e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.359e+03;	Iso E = 7.944e+01;	Aniso E = -6.438e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.50	7.59	0.33	0.10	54.09	88.96	98.07	97.05	17.22	0.00	0.03	
+
+Structure is still a-okay!
+Step       3.25e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.357e+03;	Iso E = 8.341e+01;	Aniso E = -6.440e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.35	7.66	0.34	0.10	54.27	89.41	98.24	95.64	17.11	0.00	0.02	
+
+Structure is still a-okay!
+Step       3.50e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.481e+03;	Iso E = 8.265e+01;	Aniso E = -6.564e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.26	7.47	0.33	0.10	54.49	89.38	98.23	95.86	17.15	0.00	0.02	
+
+Structure is still a-okay!
+Step       3.75e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.326e+03;	Iso E = 9.198e+01;	Aniso E = -6.418e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.27	7.64	0.33	0.09	54.01	89.07	98.17	97.45	17.18	0.00	0.02	
+
+Structure is still a-okay!
+Step       4.00e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.368e+03;	Iso E = 8.557e+01;	Aniso E = -6.454e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.25	7.67	0.34	0.10	54.53	89.45	98.25	96.64	17.07	0.00	0.01	
+
+Structure is still a-okay!
+Step       4.25e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.371e+03;	Iso E = 8.530e+01;	Aniso E = -6.456e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.32	7.59	0.33	0.09	54.32	88.90	98.22	92.37	17.09	0.00	0.02	
+
+Structure is still a-okay!
+Step       4.50e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.394e+03;	Iso E = 7.238e+01;	Aniso E = -6.466e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.30	7.60	0.32	0.10	54.23	89.44	98.13	96.51	16.96	0.00	0.01	
+
+Structure is still a-okay!
+Step       4.75e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.404e+03;	Iso E = 4.755e+01;	Aniso E = -6.452e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.29	7.57	0.33	0.10	54.28	89.20	98.03	95.68	17.14	0.00	0.02	
+
+Structure is still a-okay!
+Step       5.00e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.336e+03;	Iso E = 6.790e+01;	Aniso E = -6.404e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.41	7.59	0.33	0.10	54.13	89.85	98.11	95.67	17.21	0.00	0.01	
+
+Structure is still a-okay!
+Step       5.25e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.441e+03;	Iso E = 6.934e+01;	Aniso E = -6.510e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.32	7.64	0.34	0.11	54.72	89.63	98.20	95.35	17.16	0.00	0.01	
+
+Structure is still a-okay!
+Step       5.50e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.484e+03;	Iso E = 3.827e+01;	Aniso E = -6.522e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.24	7.59	0.32	0.10	54.45	89.62	98.23	95.96	17.11	0.00	0.02	
+
+Structure is still a-okay!
+Step       5.75e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.367e+03;	Iso E = 8.692e+01;	Aniso E = -6.454e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.37	7.60	0.33	0.10	54.17	89.41	98.21	97.48	16.98	0.00	0.02	
+
+Structure is still a-okay!
+Step       6.00e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.434e+03;	Iso E = 7.020e+01;	Aniso E = -6.504e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.22	7.64	0.35	0.09	54.30	89.43	98.29	94.42	17.07	0.00	0.00	
+
+Structure is still a-okay!
+Step       6.25e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.363e+03;	Iso E = 8.539e+01;	Aniso E = -6.448e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.42	7.66	0.33	0.10	54.43	89.48	98.13	96.96	17.22	0.00	0.01	
+
+Structure is still a-okay!
+Step       6.50e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.438e+03;	Iso E = 6.405e+01;	Aniso E = -6.502e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.41	7.63	0.33	0.09	54.35	89.44	98.23	96.57	17.23	0.00	0.03	
+
+Structure is still a-okay!
+Step       6.75e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.373e+03;	Iso E = 8.478e+01;	Aniso E = -6.458e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.25	7.58	0.33	0.09	53.97	89.58	98.12	94.72	17.12	0.00	0.03	
+
+Structure is still a-okay!
+Step       7.00e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.275e+03;	Iso E = 9.922e+01;	Aniso E = -6.374e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.44	7.61	0.33	0.09	53.90	89.07	98.24	96.86	17.14	0.00	0.02	
+
+Structure is still a-okay!
+Step       7.25e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.367e+03;	Iso E = 2.862e+01;	Aniso E = -6.396e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.24	7.63	0.34	0.09	53.91	89.41	98.25	97.71	17.17	0.00	0.01	
+
+Structure is still a-okay!
+Step       7.50e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.379e+03;	Iso E = 5.692e+01;	Aniso E = -6.436e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.27	7.64	0.34	0.10	54.02	89.40	98.25	96.64	17.07	0.00	0.03	
+
+Structure is still a-okay!
+Step       7.75e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.332e+03;	Iso E = 7.579e+01;	Aniso E = -6.408e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.21	7.62	0.33	0.11	54.31	88.79	98.29	95.57	17.26	0.00	0.03	
+
+Structure is still a-okay!
+Step       8.00e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.330e+03;	Iso E = 9.601e+01;	Aniso E = -6.426e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.33	7.57	0.33	0.10	54.20	89.61	98.31	97.15	17.00	0.00	0.03	
+
+Structure is still a-okay!
+Step       8.25e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.256e+03;	Iso E = 1.276e+02;	Aniso E = -6.384e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.13	7.60	0.33	0.10	54.24	89.58	98.12	95.62	17.02	0.00	0.01	
+
+Structure is still a-okay!
+Step       8.50e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.344e+03;	Iso E = 5.165e+01;	Aniso E = -6.396e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.36	7.61	0.35	0.09	54.08	88.83	98.27	97.55	17.14	0.00	0.03	
+
+Structure is still a-okay!
+Step       8.75e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.281e+03;	Iso E = 9.051e+01;	Aniso E = -6.372e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.40	7.60	0.33	0.10	54.53	89.71	98.24	95.38	17.18	0.00	0.02	
+
+Structure is still a-okay!
+Step       9.00e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.267e+03;	Iso E = 1.029e+02;	Aniso E = -6.370e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.35	7.56	0.34	0.09	54.24	89.23	98.22	95.61	17.15	0.00	0.02	
+
+Structure is still a-okay!
+Step       9.25e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.413e+03;	Iso E = 5.539e+01;	Aniso E = -6.468e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.21	7.57	0.33	0.10	54.21	89.90	98.31	95.67	17.23	0.00	0.03	
+
+Structure is still a-okay!
+Step       9.50e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.407e+03;	Iso E = 8.291e+01;	Aniso E = -6.490e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.28	7.59	0.31	0.10	54.57	89.31	98.26	97.36	17.16	0.00	0.03	
+
+Structure is still a-okay!
+Step       9.75e+07
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.364e+03;	Iso E = 6.165e+01;	Aniso E = -6.426e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.20	7.63	0.34	0.10	54.45	89.72	98.31	96.39	17.13	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.00e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.299e+03;	Iso E = 8.137e+01;	Aniso E = -6.380e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.30	7.60	0.34	0.11	54.27	89.45	98.19	97.17	17.20	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.02e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.342e+03;	Iso E = 7.245e+01;	Aniso E = -6.414e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+79.30	7.60	0.33	0.10	53.98	89.42	98.18	97.55	16.94	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.05e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.428e+03;	Iso E = 6.412e+01;	Aniso E = -6.492e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.31	7.62	0.34	0.09	54.23	89.68	98.23	96.78	16.95	0.00	0.03	
+
+Structure is still a-okay!
+Step       1.08e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.474e+03;	Iso E = 6.176e+01;	Aniso E = -6.536e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.26	7.54	0.34	0.10	54.09	89.75	98.09	97.21	17.16	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.10e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.327e+03;	Iso E = 6.098e+01;	Aniso E = -6.388e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.09	7.61	0.33	0.10	54.43	89.20	98.08	95.86	17.21	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.12e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.514e+03;	Iso E = 4.227e+01;	Aniso E = -6.556e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.30	7.53	0.34	0.11	54.31	89.64	98.16	96.26	17.07	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.15e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.284e+03;	Iso E = 8.425e+01;	Aniso E = -6.368e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.22	7.55	0.34	0.11	54.47	89.59	98.13	96.43	17.05	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.18e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.359e+03;	Iso E = 6.854e+01;	Aniso E = -6.428e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.35	7.61	0.32	0.11	54.41	89.43	98.09	96.19	17.06	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.20e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.368e+03;	Iso E = 8.207e+01;	Aniso E = -6.450e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.27	7.62	0.33	0.10	54.44	89.74	98.14	95.50	17.07	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.22e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.295e+03;	Iso E = 8.105e+01;	Aniso E = -6.376e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.19	7.62	0.33	0.09	54.53	89.58	98.16	96.00	16.99	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.25e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.405e+03;	Iso E = 6.089e+01;	Aniso E = -6.466e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.41	7.63	0.32	0.11	54.06	89.76	98.26	95.98	17.15	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.28e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.349e+03;	Iso E = 7.095e+01;	Aniso E = -6.420e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.40	7.58	0.33	0.09	53.96	89.37	98.22	96.21	17.00	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.30e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.389e+03;	Iso E = 4.909e+01;	Aniso E = -6.438e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.39	7.63	0.33	0.10	53.92	89.59	98.17	95.96	17.00	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.32e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.412e+03;	Iso E = 4.796e+01;	Aniso E = -6.460e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.30	7.71	0.32	0.09	54.13	89.39	98.16	97.52	17.05	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.35e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.448e+03;	Iso E = 7.604e+01;	Aniso E = -6.524e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.33	7.60	0.33	0.10	54.11	89.07	98.18	94.14	17.18	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.38e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.370e+03;	Iso E = 9.009e+01;	Aniso E = -6.460e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.25	7.65	0.35	0.09	53.80	89.37	98.16	96.48	17.01	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.40e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.413e+03;	Iso E = 7.300e+01;	Aniso E = -6.486e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.31	7.65	0.34	0.09	54.17	89.21	98.26	96.57	17.05	0.00	0.03	
+
+Structure is still a-okay!
+Step       1.42e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.325e+03;	Iso E = 9.466e+01;	Aniso E = -6.420e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.30	7.64	0.34	0.11	53.78	89.54	98.27	97.21	16.94	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.45e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.368e+03;	Iso E = 7.997e+01;	Aniso E = -6.448e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.44	7.65	0.33	0.09	54.02	89.08	98.10	96.25	17.07	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.48e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.348e+03;	Iso E = 5.995e+01;	Aniso E = -6.408e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.32	7.62	0.33	0.08	54.29	89.63	98.22	97.51	17.04	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.50e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.445e+03;	Iso E = 6.117e+01;	Aniso E = -6.506e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.45	7.66	0.34	0.10	54.27	89.24	98.25	97.23	17.07	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.52e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.358e+03;	Iso E = 8.763e+01;	Aniso E = -6.446e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.29	7.57	0.33	0.10	54.35	89.54	98.21	96.02	16.93	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.55e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.265e+03;	Iso E = 8.714e+01;	Aniso E = -6.352e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.22	7.62	0.33	0.09	53.78	89.41	98.14	95.77	16.99	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.58e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.319e+03;	Iso E = 9.875e+01;	Aniso E = -6.418e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.43	7.58	0.35	0.09	54.15	89.36	98.18	96.77	17.26	0.00	0.03	
+
+Structure is still a-okay!
+Step       1.60e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.417e+03;	Iso E = 7.880e+01;	Aniso E = -6.496e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.37	7.53	0.34	0.09	54.42	89.90	98.24	97.61	17.13	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.62e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.244e+03;	Iso E = 8.431e+01;	Aniso E = -6.328e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.20	7.55	0.31	0.09	54.15	89.02	98.25	92.24	17.27	0.00	0.03	
+
+Structure is still a-okay!
+Step       1.65e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.451e+03;	Iso E = 4.544e+01;	Aniso E = -6.496e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.31	7.53	0.33	0.10	53.95	89.56	98.18	94.93	17.01	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.68e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.409e+03;	Iso E = 5.263e+01;	Aniso E = -6.462e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.30	7.55	0.33	0.10	54.12	89.39	98.22	97.03	17.18	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.70e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.365e+03;	Iso E = 9.339e+01;	Aniso E = -6.458e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.31	7.66	0.34	0.10	54.33	89.78	98.22	97.49	17.08	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.72e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.241e+03;	Iso E = 8.896e+01;	Aniso E = -6.330e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.26	7.63	0.34	0.09	54.25	89.44	98.20	97.33	17.19	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.75e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.366e+03;	Iso E = 8.399e+01;	Aniso E = -6.450e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.16	7.55	0.33	0.09	54.35	89.44	98.19	95.74	17.06	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.78e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.473e+03;	Iso E = 2.670e+01;	Aniso E = -6.500e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.27	7.62	0.32	0.09	54.14	89.60	98.13	97.17	17.27	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.80e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.466e+03;	Iso E = 6.205e+01;	Aniso E = -6.528e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.23	7.55	0.34	0.10	54.26	89.50	98.20	96.11	17.11	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.82e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.368e+03;	Iso E = 6.615e+01;	Aniso E = -6.434e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.39	7.64	0.32	0.11	54.41	89.83	98.21	97.93	17.11	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.85e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.276e+03;	Iso E = 9.586e+01;	Aniso E = -6.372e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.40	7.63	0.34	0.11	54.79	89.52	98.04	96.61	17.14	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.88e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.437e+03;	Iso E = 6.704e+01;	Aniso E = -6.504e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.44	7.63	0.33	0.10	54.33	89.90	98.17	90.25	17.18	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.90e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.430e+03;	Iso E = 6.206e+01;	Aniso E = -6.492e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.34	7.64	0.33	0.09	54.42	89.69	98.23	95.83	17.24	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.92e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.346e+03;	Iso E = 7.370e+01;	Aniso E = -6.420e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.30	7.60	0.32	0.09	54.29	89.71	98.30	96.60	17.06	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.95e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.344e+03;	Iso E = 5.646e+01;	Aniso E = -6.400e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.42	7.63	0.32	0.11	54.18	89.68	98.15	96.39	17.17	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.98e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.420e+03;	Iso E = 8.189e+01;	Aniso E = -6.502e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.38	7.63	0.33	0.10	54.38	89.46	98.21	91.83	17.14	0.00	0.02	
+
+Structure is still a-okay!
+Step       2.00e+08
+Run Cycle: 1
+MC Temp  = 1.250e+00;
+Total E  = -6.410e+03;	Iso E = 3.565e+01;	Aniso E = -6.446e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+79.34	7.64	0.34	0.10	54.03	89.44	98.30	91.91	17.16	0.00	0.03	
+
+Structure is still a-okay!
+Step       0.00e+00
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.410e+03;	Iso E = 3.565e+01;	Aniso E = -6.446e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+100.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	
+
+Structure is still a-okay!
+Step       2.50e+06
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.049e+03;	Iso E = 1.553e+02;	Aniso E = -6.204e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.70	8.07	0.34	0.11	56.35	90.15	98.33	96.11	17.90	0.00	0.03	
+
+Structure is still a-okay!
+Step       5.00e+06
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -5.998e+03;	Iso E = 1.402e+02;	Aniso E = -6.138e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.83	8.16	0.33	0.12	56.32	90.39	98.25	96.09	18.01	0.00	0.01	
+
+Structure is still a-okay!
+Step       7.50e+06
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.090e+03;	Iso E = 1.097e+02;	Aniso E = -6.200e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.81	8.18	0.32	0.12	56.47	90.29	98.19	96.42	18.05	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.00e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -5.998e+03;	Iso E = 1.204e+02;	Aniso E = -6.118e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.72	8.17	0.33	0.11	56.47	90.46	98.20	95.50	18.03	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.25e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.161e+03;	Iso E = 1.327e+02;	Aniso E = -6.294e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.70	8.12	0.33	0.11	56.48	90.37	98.25	97.82	17.90	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.50e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.011e+03;	Iso E = 1.427e+02;	Aniso E = -6.154e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.70	8.14	0.35	0.12	56.33	90.51	98.37	92.67	18.10	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.75e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -5.992e+03;	Iso E = 1.523e+02;	Aniso E = -6.144e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.79	8.11	0.33	0.10	56.60	90.29	98.16	95.31	17.91	0.00	0.02	
+
+Structure is still a-okay!
+Step       2.00e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -5.936e+03;	Iso E = 1.737e+02;	Aniso E = -6.110e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.73	8.16	0.33	0.11	56.51	90.26	98.22	96.29	17.84	0.00	0.01	
+
+Structure is still a-okay!
+Step       2.25e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.081e+03;	Iso E = 1.512e+02;	Aniso E = -6.232e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.85	8.16	0.32	0.11	56.44	90.04	98.21	96.15	17.84	0.00	0.02	
+
+Structure is still a-okay!
+Step       2.50e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -5.950e+03;	Iso E = 1.640e+02;	Aniso E = -6.114e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.77	8.10	0.32	0.11	56.41	90.22	98.25	96.77	18.00	0.00	0.02	
+
+Structure is still a-okay!
+Step       2.75e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -5.976e+03;	Iso E = 1.281e+02;	Aniso E = -6.104e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.72	8.10	0.33	0.10	56.44	90.31	98.30	95.28	17.90	0.00	0.02	
+
+Structure is still a-okay!
+Step       3.00e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -5.971e+03;	Iso E = 1.710e+02;	Aniso E = -6.142e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.72	8.11	0.33	0.12	56.28	90.39	98.24	95.49	17.92	0.00	0.02	
+
+Structure is still a-okay!
+Step       3.25e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -5.968e+03;	Iso E = 1.479e+02;	Aniso E = -6.116e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.81	8.23	0.32	0.10	56.32	90.69	98.29	96.83	17.98	0.00	0.01	
+
+Structure is still a-okay!
+Step       3.50e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.085e+03;	Iso E = 1.429e+02;	Aniso E = -6.228e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.68	8.12	0.34	0.11	56.46	90.09	98.25	97.01	17.85	0.00	0.02	
+
+Structure is still a-okay!
+Step       3.75e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.016e+03;	Iso E = 1.461e+02;	Aniso E = -6.162e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.71	8.14	0.33	0.11	56.59	90.14	98.22	96.96	18.03	0.00	0.02	
+
+Structure is still a-okay!
+Step       4.00e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.127e+03;	Iso E = 1.534e+02;	Aniso E = -6.280e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.84	8.15	0.33	0.11	56.78	90.23	98.23	91.32	18.16	0.00	0.02	
+
+Structure is still a-okay!
+Step       4.25e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.009e+03;	Iso E = 1.414e+02;	Aniso E = -6.150e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.89	8.12	0.34	0.11	56.57	90.32	98.25	93.98	17.84	0.00	0.01	
+
+Structure is still a-okay!
+Step       4.50e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -5.959e+03;	Iso E = 2.115e+02;	Aniso E = -6.170e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.75	8.17	0.34	0.10	56.31	89.69	98.11	93.09	18.02	0.00	0.03	
+
+Structure is still a-okay!
+Step       4.75e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.063e+03;	Iso E = 1.752e+02;	Aniso E = -6.238e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.75	8.07	0.33	0.10	56.20	90.22	98.24	97.75	17.87	0.00	0.01	
+
+Structure is still a-okay!
+Step       5.00e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.116e+03;	Iso E = 1.358e+02;	Aniso E = -6.252e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.67	8.13	0.33	0.11	56.55	90.56	98.20	95.77	17.97	0.00	0.01	
+
+Structure is still a-okay!
+Step       5.25e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.037e+03;	Iso E = 1.189e+02;	Aniso E = -6.156e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.76	8.17	0.33	0.10	56.62	90.32	98.30	95.91	17.96	0.00	0.03	
+
+Structure is still a-okay!
+Step       5.50e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.106e+03;	Iso E = 1.135e+02;	Aniso E = -6.220e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.81	8.14	0.33	0.10	56.40	89.96	98.18	96.67	18.03	0.00	0.02	
+
+Structure is still a-okay!
+Step       5.75e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.048e+03;	Iso E = 1.523e+02;	Aniso E = -6.200e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.79	8.11	0.33	0.11	56.86	90.10	98.29	96.49	17.90	0.00	0.01	
+
+Structure is still a-okay!
+Step       6.00e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -5.967e+03;	Iso E = 1.627e+02;	Aniso E = -6.130e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.79	8.20	0.32	0.11	56.34	90.19	98.24	97.17	17.91	0.00	0.02	
+
+Structure is still a-okay!
+Step       6.25e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.003e+03;	Iso E = 1.573e+02;	Aniso E = -6.160e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.78	8.17	0.33	0.11	56.54	90.48	98.22	97.79	17.86	0.00	0.02	
+
+Structure is still a-okay!
+Step       6.50e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -5.976e+03;	Iso E = 1.600e+02;	Aniso E = -6.136e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.86	8.20	0.33	0.10	56.16	90.16	98.19	96.29	17.93	0.00	0.01	
+
+Structure is still a-okay!
+Step       6.75e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.037e+03;	Iso E = 1.375e+02;	Aniso E = -6.174e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.84	8.15	0.33	0.11	56.37	90.16	98.34	97.76	17.96	0.00	0.02	
+
+Structure is still a-okay!
+Step       7.00e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.029e+03;	Iso E = 1.172e+02;	Aniso E = -6.146e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.67	8.13	0.33	0.12	56.49	90.15	98.26	96.94	17.86	0.00	0.01	
+
+Structure is still a-okay!
+Step       7.25e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.152e+03;	Iso E = 1.218e+02;	Aniso E = -6.274e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.85	8.12	0.33	0.11	56.36	90.33	98.23	96.80	17.99	0.00	0.01	
+
+Structure is still a-okay!
+Step       7.50e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -5.929e+03;	Iso E = 1.748e+02;	Aniso E = -6.104e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.89	8.15	0.32	0.12	56.79	90.38	98.21	97.35	18.08	0.00	0.01	
+
+Structure is still a-okay!
+Step       7.75e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.085e+03;	Iso E = 1.230e+02;	Aniso E = -6.208e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.75	8.08	0.34	0.11	56.31	90.52	98.20	94.14	17.94	0.00	0.02	
+
+Structure is still a-okay!
+Step       8.00e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.054e+03;	Iso E = 1.356e+02;	Aniso E = -6.190e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.73	8.21	0.32	0.11	56.32	90.30	98.29	97.02	18.08	0.00	0.01	
+
+Structure is still a-okay!
+Step       8.25e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.050e+03;	Iso E = 1.678e+02;	Aniso E = -6.218e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.81	8.16	0.34	0.10	56.40	90.31	98.23	95.29	17.81	0.00	0.01	
+
+Structure is still a-okay!
+Step       8.50e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -5.940e+03;	Iso E = 1.724e+02;	Aniso E = -6.112e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.73	8.17	0.33	0.11	56.39	90.23	98.31	96.32	17.82	0.00	0.01	
+
+Structure is still a-okay!
+Step       8.75e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.053e+03;	Iso E = 1.134e+02;	Aniso E = -6.166e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.90	8.27	0.33	0.11	56.29	90.11	98.21	95.60	18.06	0.00	0.02	
+
+Structure is still a-okay!
+Step       9.00e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.082e+03;	Iso E = 1.557e+02;	Aniso E = -6.238e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.91	8.14	0.33	0.11	56.14	89.97	98.27	95.11	17.95	0.00	0.03	
+
+Structure is still a-okay!
+Step       9.25e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.078e+03;	Iso E = 1.340e+02;	Aniso E = -6.212e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.69	8.13	0.33	0.10	56.19	90.48	98.14	94.04	17.78	0.00	0.02	
+
+Structure is still a-okay!
+Step       9.50e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.075e+03;	Iso E = 1.312e+02;	Aniso E = -6.206e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.69	8.10	0.32	0.10	56.75	90.42	98.17	97.02	18.01	0.00	0.02	
+
+Structure is still a-okay!
+Step       9.75e+07
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.174e+03;	Iso E = 1.019e+02;	Aniso E = -6.276e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.77	8.19	0.34	0.11	56.35	90.25	98.23	97.43	17.92	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.00e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.099e+03;	Iso E = 1.069e+02;	Aniso E = -6.206e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.77	8.17	0.33	0.11	56.64	90.43	98.32	94.91	17.95	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.02e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.064e+03;	Iso E = 1.602e+02;	Aniso E = -6.224e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+81.76	8.12	0.33	0.10	56.51	90.50	98.24	96.60	17.90	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.05e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -5.929e+03;	Iso E = 1.852e+02;	Aniso E = -6.114e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.80	8.22	0.34	0.12	56.68	89.96	98.22	95.45	18.00	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.08e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.058e+03;	Iso E = 1.703e+02;	Aniso E = -6.228e+03;
+Percolation Parameter Is: 0.005
+Acceptance Ratios:
+81.86	8.10	0.32	0.12	56.63	90.28	98.15	96.82	18.12	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.10e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.115e+03;	Iso E = 1.433e+02;	Aniso E = -6.258e+03;
+Percolation Parameter Is: 0.005
+Acceptance Ratios:
+81.80	8.14	0.32	0.12	56.67	90.48	98.15	98.29	18.03	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.12e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.016e+03;	Iso E = 1.359e+02;	Aniso E = -6.152e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+82.05	8.22	0.34	0.12	56.44	90.10	98.20	97.86	18.22	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.15e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.014e+03;	Iso E = 1.643e+02;	Aniso E = -6.178e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.79	8.23	0.33	0.11	56.23	90.29	98.17	97.19	17.96	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.18e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.015e+03;	Iso E = 1.552e+02;	Aniso E = -6.170e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.72	8.12	0.34	0.11	56.58	90.49	98.25	95.02	17.97	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.20e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -5.949e+03;	Iso E = 1.514e+02;	Aniso E = -6.100e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.68	8.18	0.33	0.10	56.48	90.42	98.26	96.72	17.87	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.22e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.004e+03;	Iso E = 1.625e+02;	Aniso E = -6.166e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.80	8.18	0.34	0.11	56.52	90.30	98.22	96.45	17.96	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.25e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.081e+03;	Iso E = 1.273e+02;	Aniso E = -6.208e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.82	8.16	0.32	0.11	56.50	89.98	98.23	96.85	18.07	0.00	0.03	
+
+Structure is still a-okay!
+Step       1.28e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.090e+03;	Iso E = 9.558e+01;	Aniso E = -6.186e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.74	8.17	0.33	0.10	56.45	90.28	98.21	87.24	17.87	0.00	0.03	
+
+Structure is still a-okay!
+Step       1.30e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.032e+03;	Iso E = 1.319e+02;	Aniso E = -6.164e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.68	8.11	0.32	0.12	56.47	90.17	98.32	92.38	17.93	0.00	0.03	
+
+Structure is still a-okay!
+Step       1.32e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.138e+03;	Iso E = 1.137e+02;	Aniso E = -6.252e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.70	8.24	0.32	0.11	56.50	90.42	98.17	97.96	17.91	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.35e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -5.985e+03;	Iso E = 1.848e+02;	Aniso E = -6.170e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.80	8.10	0.33	0.11	56.25	90.24	98.28	97.37	18.02	0.00	0.03	
+
+Structure is still a-okay!
+Step       1.38e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -5.936e+03;	Iso E = 1.742e+02;	Aniso E = -6.110e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.84	8.16	0.33	0.13	56.60	90.26	98.33	97.35	18.11	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.40e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.033e+03;	Iso E = 1.794e+02;	Aniso E = -6.212e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.72	8.23	0.32	0.12	56.54	89.99	98.14	96.77	18.08	0.00	0.03	
+
+Structure is still a-okay!
+Step       1.42e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -5.993e+03;	Iso E = 1.848e+02;	Aniso E = -6.178e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.81	8.08	0.32	0.11	56.73	90.72	98.25	95.15	18.00	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.45e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.013e+03;	Iso E = 1.488e+02;	Aniso E = -6.162e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.77	8.24	0.32	0.10	56.51	90.51	98.23	96.32	18.02	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.48e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.045e+03;	Iso E = 1.209e+02;	Aniso E = -6.166e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.75	8.11	0.33	0.10	56.66	90.57	98.38	96.98	17.88	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.50e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.048e+03;	Iso E = 1.418e+02;	Aniso E = -6.190e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.88	8.14	0.33	0.12	56.51	90.17	98.16	81.60	17.78	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.52e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -5.958e+03;	Iso E = 1.781e+02;	Aniso E = -6.136e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.75	8.19	0.33	0.12	56.71	90.34	98.24	95.32	17.92	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.55e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.099e+03;	Iso E = 1.333e+02;	Aniso E = -6.232e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.89	8.23	0.32	0.11	56.69	90.37	98.20	95.95	18.05	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.58e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -5.884e+03;	Iso E = 1.585e+02;	Aniso E = -6.042e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.81	8.14	0.33	0.11	56.39	90.46	98.26	95.35	17.94	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.60e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.106e+03;	Iso E = 1.519e+02;	Aniso E = -6.258e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.80	8.18	0.33	0.12	56.25	90.06	98.25	95.00	17.80	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.62e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -5.990e+03;	Iso E = 1.456e+02;	Aniso E = -6.136e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.74	8.13	0.34	0.10	56.62	90.33	98.23	97.40	17.90	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.65e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.079e+03;	Iso E = 1.569e+02;	Aniso E = -6.236e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.88	8.18	0.33	0.12	56.37	90.44	98.28	95.71	17.95	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.68e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -5.979e+03;	Iso E = 1.629e+02;	Aniso E = -6.142e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.72	8.17	0.33	0.10	56.53	90.18	98.24	94.55	17.92	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.70e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.126e+03;	Iso E = 1.243e+02;	Aniso E = -6.250e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.72	8.13	0.32	0.11	56.43	90.09	98.26	96.46	17.85	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.72e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.195e+03;	Iso E = 8.715e+01;	Aniso E = -6.282e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.72	8.12	0.34	0.10	56.45	90.05	98.36	95.46	17.86	0.00	0.03	
+
+Structure is still a-okay!
+Step       1.75e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -5.924e+03;	Iso E = 1.625e+02;	Aniso E = -6.086e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.81	8.11	0.31	0.10	56.54	89.79	98.25	94.88	18.04	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.78e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -5.940e+03;	Iso E = 1.703e+02;	Aniso E = -6.110e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.83	8.10	0.33	0.10	56.55	90.46	98.27	95.29	17.93	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.80e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.061e+03;	Iso E = 1.113e+02;	Aniso E = -6.172e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.61	8.09	0.32	0.10	56.14	90.34	98.16	96.20	17.98	0.00	0.03	
+
+Structure is still a-okay!
+Step       1.82e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.063e+03;	Iso E = 1.494e+02;	Aniso E = -6.212e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.77	8.07	0.33	0.12	56.29	89.90	98.20	95.20	17.88	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.85e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -5.980e+03;	Iso E = 1.258e+02;	Aniso E = -6.106e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.85	8.18	0.33	0.10	56.58	90.24	98.32	97.32	17.95	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.88e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.062e+03;	Iso E = 1.400e+02;	Aniso E = -6.202e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.69	8.21	0.33	0.11	56.34	90.22	98.17	97.05	18.04	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.90e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -5.866e+03;	Iso E = 1.799e+02;	Aniso E = -6.046e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.78	8.15	0.33	0.09	56.39	90.43	98.28	96.31	17.80	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.92e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -5.948e+03;	Iso E = 1.904e+02;	Aniso E = -6.138e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.77	8.11	0.32	0.12	56.68	90.30	98.14	96.40	18.09	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.95e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.046e+03;	Iso E = 1.459e+02;	Aniso E = -6.192e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.75	8.19	0.31	0.11	56.55	90.12	98.23	95.20	18.07	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.98e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.061e+03;	Iso E = 1.211e+02;	Aniso E = -6.182e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.65	8.14	0.31	0.12	56.71	90.54	98.19	93.48	18.02	0.00	0.01	
+
+Structure is still a-okay!
+Step       2.00e+08
+Run Cycle: 2
+MC Temp  = 1.500e+00;
+Total E  = -6.117e+03;	Iso E = 1.128e+02;	Aniso E = -6.230e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+81.72	8.14	0.34	0.10	56.46	90.05	98.16	95.56	18.05	0.00	0.01	
+
+Structure is still a-okay!
+Step       0.00e+00
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -6.117e+03;	Iso E = 1.128e+02;	Aniso E = -6.230e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	
+
+Structure is still a-okay!
+Step       2.50e+06
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.851e+03;	Iso E = 1.553e+02;	Aniso E = -6.006e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.71	8.62	0.32	0.12	58.17	90.61	98.27	97.25	18.60	0.00	0.02	
+
+Structure is still a-okay!
+Step       5.00e+06
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.810e+03;	Iso E = 1.464e+02;	Aniso E = -5.956e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.81	8.57	0.32	0.12	58.15	90.38	98.22	96.39	18.94	0.00	0.03	
+
+Structure is still a-okay!
+Step       7.50e+06
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.741e+03;	Iso E = 1.853e+02;	Aniso E = -5.926e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.80	8.65	0.32	0.12	57.82	90.47	98.24	97.34	18.62	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.00e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.770e+03;	Iso E = 2.175e+02;	Aniso E = -5.988e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.87	8.64	0.33	0.13	58.15	90.57	98.26	96.67	18.76	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.25e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.675e+03;	Iso E = 2.308e+02;	Aniso E = -5.906e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.85	8.67	0.32	0.13	58.30	90.64	98.31	96.22	18.81	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.50e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.837e+03;	Iso E = 1.885e+02;	Aniso E = -6.026e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.73	8.67	0.32	0.11	58.23	90.49	98.26	96.26	18.67	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.75e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.775e+03;	Iso E = 2.171e+02;	Aniso E = -5.992e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.73	8.59	0.32	0.11	58.11	90.75	98.26	96.86	18.73	0.00	0.01	
+
+Structure is still a-okay!
+Step       2.00e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.628e+03;	Iso E = 1.964e+02;	Aniso E = -5.824e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.81	8.72	0.32	0.11	58.07	90.78	98.28	96.62	18.97	0.00	0.01	
+
+Structure is still a-okay!
+Step       2.25e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.711e+03;	Iso E = 2.207e+02;	Aniso E = -5.932e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.76	8.52	0.33	0.11	57.95	90.76	98.28	95.40	18.73	0.00	0.01	
+
+Structure is still a-okay!
+Step       2.50e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.717e+03;	Iso E = 2.368e+02;	Aniso E = -5.954e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.79	8.63	0.31	0.11	58.20	90.65	98.20	96.55	19.02	0.00	0.02	
+
+Structure is still a-okay!
+Step       2.75e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.730e+03;	Iso E = 1.922e+02;	Aniso E = -5.922e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.80	8.64	0.33	0.12	58.27	90.52	98.29	89.86	18.88	0.00	0.03	
+
+Structure is still a-okay!
+Step       3.00e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.743e+03;	Iso E = 2.412e+02;	Aniso E = -5.984e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.80	8.68	0.31	0.12	58.01	90.69	98.31	96.50	18.97	0.00	0.02	
+
+Structure is still a-okay!
+Step       3.25e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.710e+03;	Iso E = 2.179e+02;	Aniso E = -5.928e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.87	8.63	0.31	0.12	58.22	90.87	98.31	97.00	18.75	0.00	0.03	
+
+Structure is still a-okay!
+Step       3.50e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.722e+03;	Iso E = 2.277e+02;	Aniso E = -5.950e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.95	8.63	0.32	0.12	58.54	90.88	98.30	97.50	19.12	0.00	0.01	
+
+Structure is still a-okay!
+Step       3.75e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.793e+03;	Iso E = 1.731e+02;	Aniso E = -5.966e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.96	8.70	0.32	0.11	57.87	90.19	98.31	90.72	18.77	0.00	0.02	
+
+Structure is still a-okay!
+Step       4.00e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.778e+03;	Iso E = 1.843e+02;	Aniso E = -5.962e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.84	8.62	0.33	0.12	57.94	90.51	98.25	90.22	18.77	0.00	0.01	
+
+Structure is still a-okay!
+Step       4.25e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.846e+03;	Iso E = 2.017e+02;	Aniso E = -6.048e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.88	8.65	0.31	0.13	57.94	90.62	98.27	97.68	18.89	0.00	0.01	
+
+Structure is still a-okay!
+Step       4.50e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.809e+03;	Iso E = 2.146e+02;	Aniso E = -6.024e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.90	8.65	0.31	0.12	58.21	90.56	98.36	97.86	18.66	0.00	0.02	
+
+Structure is still a-okay!
+Step       4.75e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.729e+03;	Iso E = 1.734e+02;	Aniso E = -5.902e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.74	8.57	0.32	0.13	57.96	90.60	98.26	96.42	18.69	0.00	0.02	
+
+Structure is still a-okay!
+Step       5.00e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.907e+03;	Iso E = 1.774e+02;	Aniso E = -6.084e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.73	8.61	0.32	0.12	58.24	90.69	98.26	97.58	18.76	0.00	0.02	
+
+Structure is still a-okay!
+Step       5.25e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.883e+03;	Iso E = 1.755e+02;	Aniso E = -6.058e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.90	8.67	0.32	0.12	57.92	90.51	98.28	97.57	18.86	0.00	0.01	
+
+Structure is still a-okay!
+Step       5.50e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.782e+03;	Iso E = 1.597e+02;	Aniso E = -5.942e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.80	8.72	0.33	0.11	58.28	90.56	98.20	97.07	18.81	0.00	0.02	
+
+Structure is still a-okay!
+Step       5.75e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.789e+03;	Iso E = 1.990e+02;	Aniso E = -5.988e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.80	8.59	0.31	0.12	58.21	90.84	98.22	96.95	18.68	0.00	0.01	
+
+Structure is still a-okay!
+Step       6.00e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.725e+03;	Iso E = 2.046e+02;	Aniso E = -5.930e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.67	8.60	0.33	0.11	58.09	90.77	98.32	94.72	18.62	0.00	0.02	
+
+Structure is still a-okay!
+Step       6.25e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.856e+03;	Iso E = 1.836e+02;	Aniso E = -6.040e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.81	8.62	0.32	0.11	58.08	90.51	98.25	93.52	18.80	0.00	0.02	
+
+Structure is still a-okay!
+Step       6.50e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.748e+03;	Iso E = 2.283e+02;	Aniso E = -5.976e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.87	8.74	0.33	0.12	58.06	90.69	98.28	97.25	18.75	0.00	0.01	
+
+Structure is still a-okay!
+Step       6.75e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.696e+03;	Iso E = 2.035e+02;	Aniso E = -5.900e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.75	8.60	0.33	0.10	58.17	90.51	98.23	96.48	18.72	0.00	0.01	
+
+Structure is still a-okay!
+Step       7.00e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.852e+03;	Iso E = 2.196e+02;	Aniso E = -6.072e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.84	8.69	0.32	0.11	58.09	90.87	98.34	96.42	18.68	0.00	0.01	
+
+Structure is still a-okay!
+Step       7.25e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.713e+03;	Iso E = 2.035e+02;	Aniso E = -5.916e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.84	8.63	0.32	0.11	57.92	90.72	98.27	96.79	18.77	0.00	0.01	
+
+Structure is still a-okay!
+Step       7.50e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.898e+03;	Iso E = 1.741e+02;	Aniso E = -6.072e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.90	8.59	0.33	0.11	58.09	90.67	98.29	96.18	18.82	0.00	0.01	
+
+Structure is still a-okay!
+Step       7.75e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.709e+03;	Iso E = 2.213e+02;	Aniso E = -5.930e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.85	8.63	0.31	0.12	58.07	90.25	98.27	96.29	18.88	0.00	0.03	
+
+Structure is still a-okay!
+Step       8.00e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.718e+03;	Iso E = 2.344e+02;	Aniso E = -5.952e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.83	8.57	0.31	0.12	58.08	90.61	98.18	97.25	18.90	0.00	0.02	
+
+Structure is still a-okay!
+Step       8.25e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.813e+03;	Iso E = 1.952e+02;	Aniso E = -6.008e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.83	8.55	0.31	0.13	58.15	90.78	98.19	97.14	18.75	0.00	0.03	
+
+Structure is still a-okay!
+Step       8.50e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.611e+03;	Iso E = 2.469e+02;	Aniso E = -5.858e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.82	8.62	0.32	0.12	58.28	90.72	98.31	97.04	18.65	0.00	0.03	
+
+Structure is still a-okay!
+Step       8.75e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.728e+03;	Iso E = 1.962e+02;	Aniso E = -5.924e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.83	8.61	0.33	0.12	57.84	90.00	98.20	97.01	18.72	0.00	0.02	
+
+Structure is still a-okay!
+Step       9.00e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.745e+03;	Iso E = 1.933e+02;	Aniso E = -5.938e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.91	8.65	0.33	0.12	58.25	90.47	98.19	96.09	18.77	0.00	0.03	
+
+Structure is still a-okay!
+Step       9.25e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.730e+03;	Iso E = 1.836e+02;	Aniso E = -5.914e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.74	8.57	0.33	0.12	57.99	90.35	98.35	97.03	18.49	0.00	0.03	
+
+Structure is still a-okay!
+Step       9.50e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.645e+03;	Iso E = 1.988e+02;	Aniso E = -5.844e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.63	8.55	0.31	0.12	58.26	90.94	98.24	97.14	18.73	0.00	0.02	
+
+Structure is still a-okay!
+Step       9.75e+07
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.808e+03;	Iso E = 1.736e+02;	Aniso E = -5.982e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.69	8.55	0.32	0.11	58.34	90.86	98.22	97.95	18.84	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.00e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.812e+03;	Iso E = 1.964e+02;	Aniso E = -6.008e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.81	8.63	0.31	0.12	58.36	90.68	98.22	96.50	18.80	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.02e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.679e+03;	Iso E = 2.475e+02;	Aniso E = -5.926e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+83.80	8.59	0.31	0.11	58.16	90.83	98.23	97.98	18.79	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.05e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.663e+03;	Iso E = 2.171e+02;	Aniso E = -5.880e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.80	8.60	0.34	0.13	57.90	90.84	98.26	95.11	18.79	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.08e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.675e+03;	Iso E = 2.234e+02;	Aniso E = -5.898e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.74	8.62	0.32	0.12	58.27	90.28	98.22	93.63	18.68	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.10e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.868e+03;	Iso E = 1.875e+02;	Aniso E = -6.056e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.72	8.62	0.32	0.12	58.23	90.55	98.17	97.39	18.71	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.12e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.839e+03;	Iso E = 1.973e+02;	Aniso E = -6.036e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.87	8.59	0.31	0.12	58.08	90.70	98.34	97.59	18.77	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.15e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.766e+03;	Iso E = 1.938e+02;	Aniso E = -5.960e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.89	8.57	0.32	0.12	58.26	90.87	98.23	97.26	18.80	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.18e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.774e+03;	Iso E = 2.161e+02;	Aniso E = -5.990e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.81	8.62	0.33	0.12	58.37	90.47	98.28	97.57	18.71	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.20e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.738e+03;	Iso E = 2.082e+02;	Aniso E = -5.946e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.73	8.59	0.31	0.12	58.12	91.00	98.34	96.54	18.72	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.22e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.841e+03;	Iso E = 1.853e+02;	Aniso E = -6.026e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.75	8.64	0.33	0.12	57.98	90.41	98.35	82.98	18.79	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.25e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.838e+03;	Iso E = 2.064e+02;	Aniso E = -6.044e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.72	8.60	0.32	0.12	57.97	90.56	98.18	96.78	18.81	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.28e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.848e+03;	Iso E = 1.804e+02;	Aniso E = -6.028e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.86	8.60	0.34	0.12	58.00	90.42	98.22	96.95	18.72	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.30e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.755e+03;	Iso E = 2.070e+02;	Aniso E = -5.962e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.81	8.69	0.32	0.12	58.43	91.00	98.33	91.55	18.77	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.32e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.772e+03;	Iso E = 1.981e+02;	Aniso E = -5.970e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.68	8.47	0.32	0.12	57.99	90.54	98.31	97.15	18.73	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.35e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.782e+03;	Iso E = 1.776e+02;	Aniso E = -5.960e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.84	8.71	0.31	0.12	58.16	90.74	98.28	90.22	18.84	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.38e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.764e+03;	Iso E = 2.142e+02;	Aniso E = -5.978e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.83	8.72	0.34	0.13	58.23	90.67	98.25	94.93	18.89	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.40e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.726e+03;	Iso E = 2.177e+02;	Aniso E = -5.944e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.80	8.60	0.32	0.12	58.43	90.87	98.35	97.80	18.85	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.42e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.882e+03;	Iso E = 1.936e+02;	Aniso E = -6.076e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.71	8.52	0.31	0.13	58.17	90.85	98.32	96.85	18.70	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.45e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.834e+03;	Iso E = 1.660e+02;	Aniso E = -6.000e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.74	8.64	0.33	0.12	58.26	90.71	98.33	96.49	18.83	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.48e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.776e+03;	Iso E = 1.820e+02;	Aniso E = -5.958e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.77	8.68	0.31	0.12	58.09	90.89	98.21	96.12	18.64	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.50e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.739e+03;	Iso E = 1.948e+02;	Aniso E = -5.934e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.81	8.54	0.32	0.12	58.34	90.48	98.34	96.13	18.71	0.00	0.03	
+
+Structure is still a-okay!
+Step       1.52e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.839e+03;	Iso E = 2.127e+02;	Aniso E = -6.052e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.79	8.57	0.32	0.11	58.24	90.49	98.31	92.57	18.89	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.55e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.897e+03;	Iso E = 1.412e+02;	Aniso E = -6.038e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.71	8.66	0.31	0.12	57.84	90.71	98.26	95.88	18.77	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.58e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.648e+03;	Iso E = 2.241e+02;	Aniso E = -5.872e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.80	8.63	0.34	0.11	58.22	90.47	98.36	97.46	18.69	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.60e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.767e+03;	Iso E = 1.870e+02;	Aniso E = -5.954e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.84	8.68	0.31	0.12	58.07	90.52	98.27	97.06	18.80	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.62e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.890e+03;	Iso E = 1.702e+02;	Aniso E = -6.060e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.73	8.62	0.34	0.12	57.88	90.66	98.27	95.59	18.72	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.65e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.830e+03;	Iso E = 1.902e+02;	Aniso E = -6.020e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.75	8.64	0.33	0.11	58.28	90.54	98.24	95.60	18.86	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.68e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.642e+03;	Iso E = 2.416e+02;	Aniso E = -5.884e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.70	8.64	0.32	0.12	58.37	90.93	98.20	97.83	18.76	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.70e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.890e+03;	Iso E = 1.782e+02;	Aniso E = -6.068e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.72	8.59	0.32	0.12	57.93	90.81	98.28	97.03	18.64	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.72e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.847e+03;	Iso E = 1.967e+02;	Aniso E = -6.044e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.78	8.63	0.31	0.12	58.34	90.66	98.24	96.46	18.65	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.75e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.768e+03;	Iso E = 2.136e+02;	Aniso E = -5.982e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.88	8.66	0.32	0.12	58.28	90.24	98.34	90.48	18.90	0.00	0.03	
+
+Structure is still a-okay!
+Step       1.78e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.776e+03;	Iso E = 2.258e+02;	Aniso E = -6.002e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.88	8.57	0.32	0.12	58.02	90.63	98.36	96.21	18.79	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.80e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.844e+03;	Iso E = 1.920e+02;	Aniso E = -6.036e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.78	8.59	0.31	0.11	58.44	90.60	98.20	97.28	18.80	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.82e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.678e+03;	Iso E = 2.417e+02;	Aniso E = -5.920e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.81	8.65	0.32	0.12	58.56	90.77	98.29	95.12	18.77	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.85e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.793e+03;	Iso E = 1.829e+02;	Aniso E = -5.976e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.73	8.61	0.31	0.13	58.05	90.43	98.20	97.16	18.73	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.88e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.802e+03;	Iso E = 2.036e+02;	Aniso E = -6.006e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.77	8.68	0.33	0.12	57.92	90.95	98.26	95.20	18.63	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.90e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.814e+03;	Iso E = 2.255e+02;	Aniso E = -6.040e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.84	8.70	0.32	0.12	58.25	90.81	98.24	96.74	18.77	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.92e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.778e+03;	Iso E = 1.882e+02;	Aniso E = -5.966e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.72	8.58	0.30	0.12	58.11	90.95	98.35	75.76	18.87	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.95e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.836e+03;	Iso E = 1.585e+02;	Aniso E = -5.994e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.78	8.67	0.32	0.12	58.04	90.65	98.22	96.98	18.80	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.98e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.787e+03;	Iso E = 1.949e+02;	Aniso E = -5.982e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.80	8.65	0.32	0.13	58.31	90.62	98.34	92.11	18.68	0.00	0.02	
+
+Structure is still a-okay!
+Step       2.00e+08
+Run Cycle: 3
+MC Temp  = 1.750e+00;
+Total E  = -5.654e+03;	Iso E = 2.100e+02;	Aniso E = -5.864e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+83.75	8.61	0.32	0.12	58.30	90.95	98.35	95.65	18.67	0.00	0.01	
+
+Structure is still a-okay!
+Step       0.00e+00
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.648e+03;	Iso E = 2.097e+02;	Aniso E = -5.858e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	
+
+Structure is still a-okay!
+Step       2.50e+06
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.383e+03;	Iso E = 2.714e+02;	Aniso E = -5.654e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.53	9.01	0.31	0.12	59.44	90.69	98.21	96.78	19.46	0.00	0.02	
+
+Structure is still a-okay!
+Step       5.00e+06
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.463e+03;	Iso E = 2.686e+02;	Aniso E = -5.732e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.47	9.04	0.30	0.12	59.37	90.55	98.32	97.34	19.56	0.00	0.02	
+
+Structure is still a-okay!
+Step       7.50e+06
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.566e+03;	Iso E = 2.701e+02;	Aniso E = -5.836e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.45	9.02	0.31	0.12	59.19	90.69	98.30	97.14	19.41	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.00e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.563e+03;	Iso E = 2.607e+02;	Aniso E = -5.824e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.37	9.00	0.33	0.13	59.38	90.71	98.42	95.40	19.51	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.25e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.586e+03;	Iso E = 2.557e+02;	Aniso E = -5.842e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.48	9.03	0.31	0.12	59.46	90.73	98.20	92.77	19.49	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.50e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.655e+03;	Iso E = 2.287e+02;	Aniso E = -5.884e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.50	9.04	0.31	0.13	59.47	90.83	98.33	93.78	19.50	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.75e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.542e+03;	Iso E = 2.579e+02;	Aniso E = -5.800e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.45	9.03	0.31	0.12	59.60	90.97	98.32	94.26	19.59	0.00	0.01	
+
+Structure is still a-okay!
+Step       2.00e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.404e+03;	Iso E = 2.856e+02;	Aniso E = -5.690e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.55	9.07	0.31	0.14	59.67	90.80	98.22	92.66	19.59	0.00	0.02	
+
+Structure is still a-okay!
+Step       2.25e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.562e+03;	Iso E = 2.123e+02;	Aniso E = -5.774e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.59	9.12	0.31	0.13	59.61	90.41	98.27	97.70	19.51	0.00	0.01	
+
+Structure is still a-okay!
+Step       2.50e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.467e+03;	Iso E = 2.449e+02;	Aniso E = -5.712e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.56	9.01	0.31	0.12	59.47	90.29	98.17	97.46	19.72	0.00	0.02	
+
+Structure is still a-okay!
+Step       2.75e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.520e+03;	Iso E = 2.639e+02;	Aniso E = -5.784e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.52	9.00	0.31	0.12	59.45	90.44	98.28	97.31	19.64	0.00	0.02	
+
+Structure is still a-okay!
+Step       3.00e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.490e+03;	Iso E = 2.721e+02;	Aniso E = -5.762e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.44	9.03	0.32	0.13	59.59	91.03	98.33	97.10	19.52	0.00	0.01	
+
+Structure is still a-okay!
+Step       3.25e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.482e+03;	Iso E = 2.497e+02;	Aniso E = -5.732e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.48	9.13	0.32	0.13	59.58	90.50	98.30	96.65	19.64	0.00	0.02	
+
+Structure is still a-okay!
+Step       3.50e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.523e+03;	Iso E = 2.372e+02;	Aniso E = -5.760e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.53	9.06	0.32	0.14	59.36	91.08	98.33	97.38	19.48	0.00	0.02	
+
+Structure is still a-okay!
+Step       3.75e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.476e+03;	Iso E = 2.480e+02;	Aniso E = -5.724e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.63	9.05	0.31	0.12	59.43	90.51	98.26	96.05	19.60	0.00	0.02	
+
+Structure is still a-okay!
+Step       4.00e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.384e+03;	Iso E = 2.804e+02;	Aniso E = -5.664e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.60	9.07	0.32	0.14	59.20	91.06	98.29	97.25	19.53	0.00	0.01	
+
+Structure is still a-okay!
+Step       4.25e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.602e+03;	Iso E = 2.419e+02;	Aniso E = -5.844e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.53	9.00	0.32	0.12	59.73	90.73	98.39	96.73	19.61	0.00	0.02	
+
+Structure is still a-okay!
+Step       4.50e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.662e+03;	Iso E = 2.198e+02;	Aniso E = -5.882e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.31	9.03	0.32	0.12	59.24	90.91	98.33	96.99	19.37	0.00	0.02	
+
+Structure is still a-okay!
+Step       4.75e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.416e+03;	Iso E = 2.796e+02;	Aniso E = -5.696e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.40	8.97	0.33	0.13	59.41	90.57	98.28	96.01	19.61	0.00	0.02	
+
+Structure is still a-okay!
+Step       5.00e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.633e+03;	Iso E = 2.731e+02;	Aniso E = -5.906e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.49	8.96	0.32	0.12	59.66	91.02	98.43	94.76	19.38	0.00	0.01	
+
+Structure is still a-okay!
+Step       5.25e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.479e+03;	Iso E = 2.766e+02;	Aniso E = -5.756e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.54	9.07	0.31	0.12	59.08	90.58	98.32	97.76	19.59	0.00	0.01	
+
+Structure is still a-okay!
+Step       5.50e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.515e+03;	Iso E = 2.671e+02;	Aniso E = -5.782e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.57	9.00	0.31	0.13	59.30	90.55	98.19	96.35	19.48	0.00	0.01	
+
+Structure is still a-okay!
+Step       5.75e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.467e+03;	Iso E = 2.392e+02;	Aniso E = -5.706e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.52	9.01	0.31	0.13	59.41	90.38	98.27	92.56	19.64	0.00	0.02	
+
+Structure is still a-okay!
+Step       6.00e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.562e+03;	Iso E = 2.718e+02;	Aniso E = -5.834e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.49	9.01	0.31	0.13	59.23	90.78	98.31	94.93	19.48	0.00	0.02	
+
+Structure is still a-okay!
+Step       6.25e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.489e+03;	Iso E = 2.306e+02;	Aniso E = -5.720e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.38	9.03	0.31	0.13	59.65	91.27	98.36	97.42	19.42	0.00	0.02	
+
+Structure is still a-okay!
+Step       6.50e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.581e+03;	Iso E = 2.492e+02;	Aniso E = -5.830e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.48	8.99	0.33	0.13	59.36	90.84	98.27	96.29	19.66	0.00	0.02	
+
+Structure is still a-okay!
+Step       6.75e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.547e+03;	Iso E = 2.446e+02;	Aniso E = -5.792e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.53	9.09	0.31	0.13	59.17	90.49	98.30	96.02	19.42	0.00	0.04	
+
+Structure is still a-okay!
+Step       7.00e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.487e+03;	Iso E = 2.608e+02;	Aniso E = -5.748e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.51	9.00	0.33	0.13	59.45	90.81	98.24	97.64	19.58	0.00	0.01	
+
+Structure is still a-okay!
+Step       7.25e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.554e+03;	Iso E = 2.361e+02;	Aniso E = -5.790e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.51	9.03	0.32	0.11	59.50	90.77	98.22	95.26	19.47	0.00	0.02	
+
+Structure is still a-okay!
+Step       7.50e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.576e+03;	Iso E = 2.521e+02;	Aniso E = -5.828e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.43	9.01	0.31	0.13	59.58	90.66	98.30	95.29	19.48	0.00	0.02	
+
+Structure is still a-okay!
+Step       7.75e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.483e+03;	Iso E = 2.790e+02;	Aniso E = -5.762e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.47	9.01	0.30	0.13	59.58	90.62	98.32	97.06	19.74	0.00	0.02	
+
+Structure is still a-okay!
+Step       8.00e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.491e+03;	Iso E = 2.929e+02;	Aniso E = -5.784e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.57	8.99	0.31	0.13	59.49	90.69	98.30	97.53	19.53	0.00	0.02	
+
+Structure is still a-okay!
+Step       8.25e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.608e+03;	Iso E = 2.577e+02;	Aniso E = -5.866e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.50	9.13	0.31	0.14	59.48	90.81	98.30	98.24	19.56	0.00	0.03	
+
+Structure is still a-okay!
+Step       8.50e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.417e+03;	Iso E = 2.711e+02;	Aniso E = -5.688e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.44	9.04	0.31	0.13	59.35	90.49	98.39	95.12	19.33	0.00	0.02	
+
+Structure is still a-okay!
+Step       8.75e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.515e+03;	Iso E = 2.334e+02;	Aniso E = -5.748e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.52	8.99	0.32	0.13	59.49	90.65	98.28	95.61	19.46	0.00	0.01	
+
+Structure is still a-okay!
+Step       9.00e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.429e+03;	Iso E = 3.049e+02;	Aniso E = -5.734e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.54	8.99	0.32	0.13	59.57	90.60	98.26	96.56	19.39	0.00	0.03	
+
+Structure is still a-okay!
+Step       9.25e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.502e+03;	Iso E = 2.703e+02;	Aniso E = -5.772e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.57	8.98	0.33	0.13	59.60	91.03	98.32	95.93	19.76	0.00	0.02	
+
+Structure is still a-okay!
+Step       9.50e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.543e+03;	Iso E = 2.830e+02;	Aniso E = -5.826e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.50	9.04	0.30	0.12	59.26	90.57	98.37	96.95	19.43	0.00	0.02	
+
+Structure is still a-okay!
+Step       9.75e+07
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.562e+03;	Iso E = 2.264e+02;	Aniso E = -5.788e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.59	9.03	0.32	0.12	59.25	90.51	98.27	90.22	19.55	0.00	0.03	
+
+Structure is still a-okay!
+Step       1.00e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.396e+03;	Iso E = 2.679e+02;	Aniso E = -5.664e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.45	9.09	0.32	0.13	59.06	90.61	98.28	97.55	19.50	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.02e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.569e+03;	Iso E = 2.366e+02;	Aniso E = -5.806e+03;
+Percolation Parameter Is: 0.000
+Acceptance Ratios:
+85.42	9.05	0.33	0.12	59.39	90.29	98.27	96.87	19.53	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.05e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.506e+03;	Iso E = 2.316e+02;	Aniso E = -5.738e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.56	9.02	0.31	0.13	59.43	90.66	98.24	96.80	19.52	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.08e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.607e+03;	Iso E = 2.332e+02;	Aniso E = -5.840e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.58	8.97	0.30	0.13	59.29	90.79	98.36	97.40	19.57	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.10e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.544e+03;	Iso E = 2.516e+02;	Aniso E = -5.796e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.46	9.09	0.32	0.13	59.42	90.80	98.41	96.61	19.45	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.12e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.451e+03;	Iso E = 2.647e+02;	Aniso E = -5.716e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.49	9.09	0.31	0.13	59.33	90.57	98.21	96.60	19.55	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.15e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.642e+03;	Iso E = 2.361e+02;	Aniso E = -5.878e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.45	9.01	0.32	0.12	59.74	90.79	98.26	96.34	19.69	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.18e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.512e+03;	Iso E = 2.558e+02;	Aniso E = -5.768e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.42	9.00	0.33	0.12	59.47	91.15	98.35	95.41	19.59	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.20e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.658e+03;	Iso E = 2.344e+02;	Aniso E = -5.892e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.52	8.99	0.30	0.14	59.52	90.74	98.37	94.95	19.61	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.22e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.513e+03;	Iso E = 2.610e+02;	Aniso E = -5.774e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.43	9.06	0.33	0.12	59.53	90.84	98.29	96.45	19.36	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.25e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.408e+03;	Iso E = 2.937e+02;	Aniso E = -5.702e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.46	9.05	0.31	0.14	59.33	90.80	98.17	98.06	19.51	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.28e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.424e+03;	Iso E = 2.723e+02;	Aniso E = -5.696e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.55	9.11	0.31	0.14	59.70	90.73	98.35	93.38	19.52	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.30e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.487e+03;	Iso E = 2.753e+02;	Aniso E = -5.762e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.49	8.99	0.32	0.14	59.42	90.80	98.36	96.24	19.42	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.32e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.619e+03;	Iso E = 2.050e+02;	Aniso E = -5.824e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.42	9.06	0.31	0.13	59.43	90.39	98.19	97.09	19.41	0.00	0.03	
+
+Structure is still a-okay!
+Step       1.35e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.594e+03;	Iso E = 2.581e+02;	Aniso E = -5.852e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.53	9.10	0.30	0.13	59.35	90.53	98.35	97.73	19.61	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.38e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.617e+03;	Iso E = 2.249e+02;	Aniso E = -5.842e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.53	8.99	0.32	0.12	59.46	90.67	98.23	97.54	19.57	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.40e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.502e+03;	Iso E = 2.438e+02;	Aniso E = -5.746e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.48	9.03	0.32	0.13	59.33	90.92	98.31	96.44	19.57	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.42e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.520e+03;	Iso E = 2.541e+02;	Aniso E = -5.774e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.44	9.09	0.31	0.14	59.27	90.66	98.25	94.99	19.46	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.45e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.526e+03;	Iso E = 2.655e+02;	Aniso E = -5.792e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.57	9.07	0.32	0.12	59.34	90.50	98.31	96.77	19.58	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.48e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.476e+03;	Iso E = 2.563e+02;	Aniso E = -5.732e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.50	9.13	0.32	0.13	59.31	90.71	98.29	95.40	19.54	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.50e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.500e+03;	Iso E = 2.417e+02;	Aniso E = -5.742e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.38	8.99	0.32	0.13	59.19	90.60	98.38	97.67	19.52	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.52e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.604e+03;	Iso E = 2.236e+02;	Aniso E = -5.828e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.50	9.04	0.30	0.13	59.54	90.82	98.36	95.11	19.54	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.55e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.381e+03;	Iso E = 2.909e+02;	Aniso E = -5.672e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.41	9.02	0.30	0.12	59.36	90.70	98.22	92.25	19.35	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.58e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.414e+03;	Iso E = 2.778e+02;	Aniso E = -5.692e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.45	8.98	0.32	0.13	59.47	91.17	98.18	97.58	19.49	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.60e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.496e+03;	Iso E = 2.683e+02;	Aniso E = -5.764e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.59	9.09	0.31	0.14	59.47	90.55	98.36	96.13	19.79	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.62e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.558e+03;	Iso E = 2.461e+02;	Aniso E = -5.804e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.59	9.13	0.32	0.12	59.51	90.49	98.28	95.33	19.68	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.65e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.494e+03;	Iso E = 2.600e+02;	Aniso E = -5.754e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.48	9.01	0.31	0.12	59.33	90.84	98.24	96.54	19.55	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.68e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.419e+03;	Iso E = 2.727e+02;	Aniso E = -5.692e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.54	9.01	0.31	0.13	59.37	90.86	98.33	96.83	19.51	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.70e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.348e+03;	Iso E = 3.040e+02;	Aniso E = -5.652e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.54	8.97	0.30	0.13	59.16	90.63	98.34	95.86	19.59	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.72e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.480e+03;	Iso E = 2.704e+02;	Aniso E = -5.750e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.50	9.03	0.31	0.13	59.17	90.83	98.20	95.93	19.67	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.75e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.587e+03;	Iso E = 2.172e+02;	Aniso E = -5.804e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.54	9.09	0.31	0.12	59.44	90.46	98.22	97.86	19.77	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.78e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.528e+03;	Iso E = 2.499e+02;	Aniso E = -5.778e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.49	8.98	0.32	0.13	59.49	90.87	98.34	97.17	19.62	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.80e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.571e+03;	Iso E = 2.455e+02;	Aniso E = -5.816e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.44	9.08	0.33	0.12	59.63	90.93	98.34	96.66	19.46	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.82e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.591e+03;	Iso E = 2.348e+02;	Aniso E = -5.826e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.46	9.05	0.31	0.12	59.48	90.69	98.28	95.23	19.45	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.85e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.478e+03;	Iso E = 2.283e+02;	Aniso E = -5.706e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.40	8.96	0.32	0.13	59.63	90.87	98.30	97.13	19.49	0.00	0.01	
+
+Structure is still a-okay!
+Step       1.88e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.567e+03;	Iso E = 2.385e+02;	Aniso E = -5.806e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.40	8.96	0.31	0.13	59.60	90.87	98.31	96.09	19.62	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.90e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.542e+03;	Iso E = 2.520e+02;	Aniso E = -5.794e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.52	9.00	0.31	0.13	59.28	90.71	98.28	96.95	19.59	0.00	0.03	
+
+Structure is still a-okay!
+Step       1.92e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.528e+03;	Iso E = 2.538e+02;	Aniso E = -5.782e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.45	9.01	0.31	0.13	59.62	90.81	98.32	95.87	19.44	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.95e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.515e+03;	Iso E = 2.651e+02;	Aniso E = -5.780e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.50	9.09	0.30	0.14	59.53	90.94	98.30	97.37	19.60	0.00	0.02	
+
+Structure is still a-okay!
+Step       1.98e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.528e+03;	Iso E = 2.336e+02;	Aniso E = -5.762e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.50	9.12	0.33	0.14	59.22	90.49	98.26	96.84	19.62	0.00	0.02	
+
+Structure is still a-okay!
+Step       2.00e+08
+Run Cycle: 4
+MC Temp  = 2.000e+00;
+Total E  = -5.576e+03;	Iso E = 2.397e+02;	Aniso E = -5.816e+03;
+Percolation Parameter Is: 0.004
+Acceptance Ratios:
+85.50	9.06	0.31	0.14	59.30	90.34	98.24	96.72	19.45	0.00	0.03	
+
+____________________________________
+Simulation finished in 105.11 minutes.
+------------------------------------
+<======       ENDING       ======>
+******************************************
