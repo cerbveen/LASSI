@@ -1,0 +1,2 @@
+MITNSKMENKILDEFDEEELNKLKINSNNKESTTTTTSTTTTTTTTTSTSG
+# did not include the final G (11th aa) in the structure input file, becauase the maximum limit of stickers is 10
